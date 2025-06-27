@@ -1,0 +1,30 @@
+{
+    "name": "altamasidoarjo/jurnal-umum",
+    "description": "Modul Jurnal Umum - Altama",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Altama Soft",
+            "email": "ricky@altamasoft.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^10.0 || ^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Altamasoft\\JurnalUmum\\": "./"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Altamasoft\\JurnalUmum\\JurnalUmumServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
