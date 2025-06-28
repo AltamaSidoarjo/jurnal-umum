@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Altamasoft\\JurnalUmum\\": "./"
+            "Altamasoft\\JurnalUmum\\": "src/"
         }
     },
     "extra": {
