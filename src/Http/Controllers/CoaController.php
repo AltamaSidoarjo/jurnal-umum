@@ -15,7 +15,7 @@ class CoaController extends Controller
     {
         $data = Coa::aktif()->get();
 
-        return view('coa.index', compact('data'));
+        return view('jurnalumum::coa.index', compact('data'));
     }
 
     public function create()
