@@ -1,6 +1,6 @@
 <?php
 
-namespace Altamasoft\JurnalUmum\Http\Controllers\Bukubesar;
+namespace Altamasoft\JurnalUmum\Http\Controllers;
 
 use Altamasoft\JurnalUmum\Http\Controllers\Controller;
 use Altamasoft\JurnalUmum\Models\Coa;

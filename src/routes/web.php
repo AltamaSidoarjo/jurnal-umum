@@ -1,6 +1,6 @@
 <?php
 
-use Altamasoft\JurnalUmum\Http\Controllers\Bukubesar\CoaController;
+use Altamasoft\JurnalUmum\Http\Controllers\CoaController;
 use Altamasoft\JurnalUmum\Http\Controllers\JurnalUmumController;
 use Illuminate\Support\Facades\Route;
 
